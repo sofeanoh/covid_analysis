@@ -10,3 +10,6 @@ How to run the file?
 
 The architechture of the the LSTM-RNN model is as following:
 ![alt text](https://github.com/sofeanoh/covid_analysis/blob/main/architecture.png?raw=true)
+
+Source:
+- Datasets : https://github.com/MoH-Malaysia/covid19-public
