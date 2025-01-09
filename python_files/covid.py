@@ -228,7 +228,6 @@ with mlflow.start_run():
     # Add dropout layer
     model.add(layers.Dropout(0.3))
     model.add(layers.Dense(32, activation='relu'))
-    model.add(layers.Dense(32, activation='relu'))
 
 
     # Output Layer
@@ -245,3 +244,5 @@ with mlflow.start_run():
 model.evaluate(single_output_window.test)
 single_output_window.plot(plot_col='cases_new', model=model)
 
+
+# %%
