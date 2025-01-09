@@ -86,7 +86,7 @@ class WindowGenerator():
       if n == 0:
         plt.legend()
 
-    plt.xlabel('Time [h]')
+    plt.xlabel('Day')
 
   def make_dataset(self, data):
     data = np.array(data, dtype=np.float32) #or can also use data.values
