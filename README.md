@@ -9,3 +9,4 @@ How to run the file?
 2. In terminal, cd into
 
 The architechture of the the LSTM-RNN model is as following:
+![alt text](https://github.com/sofeanoh/covid_analysis/blob/main/architecture.png?raw=true)
